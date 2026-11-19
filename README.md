@@ -17,7 +17,8 @@ ________________________________________
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1260" height="1170" alt="image" src="https://github.com/user-attachments/assets/48384ad9-67f6-4455-b2c8-1cf037e1024a" />
+<br>
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
@@ -86,6 +87,13 @@ Router(config)# interface gigabitethernet0/0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/d2b40b90-b038-49c8-9049-cb335dbeaf38" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/430f8a3b-9486-407f-8564-f8ee42f1ef98" />
+<img width="975" height="1198" alt="image" src="https://github.com/user-attachments/assets/2e43049c-1bef-4a5b-b8d7-2dd78781c333" />
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/b74ad96b-fbe3-4cbd-8d99-21e9a3913faf" />
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/06510241-86c8-459d-a96b-a27c701793c5" />
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/cc09da6b-2b6f-4b1b-9bf3-4d9522abf10f" />
+
 •	VLAN configuration on the switch<br>
 •	Router subinterface configuration<br>
 •	PC IP settings<br>
